@@ -19,5 +19,5 @@
 # bernie_sanders.css
 
 #Additional info:
-#fixed menu, article about your candidate, nice to have a link to your candidates public website, 
+#fixed menu, article about your candidate, nice to have a link to your candidate's public website, 
 # video of your candidate, audio of their speech, etc.
