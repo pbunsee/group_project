@@ -1,5 +1,24 @@
 /* http://webdesign.tutsplus.com/articles/css3-web-fonts-and-icons--webdesign-15151 */
 
+img {
+    width: 250px;
+    height: 250px;
+    top: 10px;
+    left: 100px;
+    padding-top: 20px;
+}
+
+/*
+div {
+    position: relative;
+    display: block;
+    float: right;
+    top: 300px;
+    left: 300px;
+    padding-top: 100px;
+}
+*/
+
 /* Set menu to be fixed, not affected by scrolling the page up or down */
 #menuContainer {
         position: fixed;
@@ -44,4 +63,39 @@
 #menuContainer a {
     text-decoration: none;
 }
+
+#BerniePic {
+    float: left;
+    outline: rgba(255, 0, 0, 0.3);  /* r=red, g=green, b=blue a=alpha (opacity) */
+}
+
+#aboutBernie {
+    display: block;
+    top: 300px;
+    left: 300px;
+    padding-top: 100px;
+    margin: 20px;
+}
+
+#petIssues {
+    display: block;
+    padding-top: 100px;
+    margin: 20px;
+
+}
+
+#reasonsToVote {
+    display: block;
+    padding-top: 100px;
+    margin: 20px;
+
+}
+
+/*
+*:after {
+    box-shadow: none;
+}
+*/
+
+
 

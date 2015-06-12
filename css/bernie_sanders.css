@@ -1,0 +1,153 @@
+/* http://webdesign.tutsplus.com/articles/css3-web-fonts-and-icons--webdesign-15151 */
+
+img {
+    width: 250px;
+    height: 300px;
+    top: 10px;
+    left: 100px;
+    padding-top: 10px;
+}
+
+/*
+div {
+    position: relative;
+    display: block;
+    float: right;
+    top: 300px;
+    left: 300px;
+    padding-top: 100px;
+}
+*/
+
+body {
+    background-color: #EBEBE0;
+}
+
+span {
+    font-family: Verdana, serif;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: italic;
+}
+
+#outerContainer {
+    width: 95%;
+}
+
+/* Set menu to be fixed, not affected by scrolling the page up or down */
+#menuContainer {
+        position: fixed;
+        top: 0;
+        left: 10;
+        z-index: -1;
+        width: 95%;
+        height: 80px;
+        background-image: url('http://coryellgop.org/wp-content/uploads/2013/10/2016.jpg'); 
+        background-repeat: no-repeat;
+        background-size: cover; 
+        border: none;
+        /*opacity: 0.4;*/
+        font-family: Verdana, serif;
+        font-weight: bold;
+        font-size: 20px;
+        text-align: center;
+        
+        text-shadow: 0 0 10px #fff,
+                     0 0 20px #fff,
+                     0 0 30px #fff,
+                     0 0 40px #CC29A3,
+                     0 0 50px #CC29A3,
+                     0 0 60px #CC29A3,
+                     0 0 70px #CC29A3,
+                     0 0 80px #CC29A3;
+}
+
+/* Remove default padding from the menu list - i.e. the bullets */
+#menuContainer ul {
+        height: auto;
+        padding: 8px 0px;
+        margin: 0px;
+}
+
+/* set the menu to display horizontally, with spacing between menu items */
+#menuContainer li { 
+        display: inline; 
+        line-height: 30px;
+        padding: 40px 40px 50px 50px; 
+        /*background-color: rgba(255, 255, 255, 0.5);*/
+        position: static;
+        opacity: 0.9;
+        /*font-color: #E6E6E6; */
+
+}
+
+/* remove the underline from the menu list items */
+#menuContainer a {
+    text-decoration: none;
+}
+
+#BerniePic {
+    float: right;
+    outline: rgba(255, 0, 0, 0.3);  /* r=red, g=green, b=blue a=alpha (opacity) */
+    box-shadow: 10px 10px 5px #888888;
+}
+
+#aboutBernie {
+    display: inline-block;
+    top: 10px;
+    left: 30px;
+    padding-top: 10px;
+    margin: 10px;
+    float: left;
+    width: 75%;
+}
+
+#petIssues {
+    display: inline-block;
+    padding-top: 5px;
+    margin: 5px;
+    float: left;
+    width: auto;
+}
+
+#reasonsToVote {
+    display: inline-block;
+    padding-top: 5px;
+    margin: 5px;
+    float: left;
+    width: auto;
+}
+
+/*
+*:after {
+    box-shadow: none;
+}
+*/
+
+.my-container {
+    position: relative;
+    background: #5C97FF;
+    overflow: hidden;
+}
+/* You could use :after - it doesn't really matter */
+.my-container:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.8;
+    background-image: url('http://placekitten.com/1500/1000');
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+
