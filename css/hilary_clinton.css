@@ -1,0 +1,33 @@
+@import "common.css";
+
+#main {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.navbar {
+    width: 900px;
+    margin: 0 auto;
+}
+#column1 {
+     float: left;
+     width: 45%;
+}
+#column2 {
+    float: right;
+    width: 50%;
+    
+}
+#content {
+    width:100%;
+}
+
+nav {
+  width: 400px;
+    margin: 0 auto;
+}
+
+#clear {
+  clear: both;
+}
+img {width: 100%}

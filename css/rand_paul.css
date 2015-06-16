@@ -1,0 +1,84 @@
+@import "common.css";
+
+header {
+    text-align: center;
+    font-size: 50px;
+}
+
+#main {
+    margin-right:5%;
+    margin-left: 5%;
+}
+
+#wrap ul {
+     height: auto;
+     padding: 8px 0px;
+     margin: 0px;
+     display: inline; 
+     line-height: 50px;
+     padding: 30px 30px 30px 30px; 
+     font-color: #E6E6E6;
+     text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+        display: inline; 
+        line-height: 50px;
+        padding: 30px 30px 30px 30px; 
+        font-color: #E6E6E6;
+        text-align: center;
+}
+
+#rand_paul
+{
+    height: 300px;
+    width:350px;
+    float: right;
+    margin-left: 20px;   
+}
+    
+#rand_paul2
+{
+    height:300px;
+    width: 350px;
+    float: right;
+    margin-left:20px;
+}
+
+#rand_paul1
+{
+    height: 300px;
+    width: 350px;
+    float:right;
+    margin-left: 20px;
+}
+
+.col-2 {
+    display: inline-block;
+    float: right;
+}
+
+}
+.col-3 {
+    display: inline-block;
+    float: right;
+}
+
+
+p {
+    text-align: center;
+    font-size: 50px; 
+}
+
+#background-color: {
+    text-transform: #E6E6E6
+
+} 
+
+.reasons {
+    clear: both;
+}

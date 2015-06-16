@@ -1,37 +1,23 @@
-/* http://webdesign.tutsplus.com/articles/css3-web-fonts-and-icons--webdesign-15151 */
-
-img {
-    width: 250px;
-    height: 250px;
-    top: 10px;
-    left: 100px;
-    padding-top: 20px;
+#outerContainer {
+    width: 95%;
 }
-
-/*
-div {
-    position: relative;
-    display: block;
-    float: right;
-    top: 300px;
-    left: 300px;
-    padding-top: 100px;
-}
-*/
 
 /* Set menu to be fixed, not affected by scrolling the page up or down */
 #menuContainer {
         position: fixed;
         top: 0;
         left: 10;
-        z-index: 9999;
+        z-index: -1;
         width: 95%;
-        height: 70px;
-        background-color: #000000;
-        border: solid black;
+        height: 80px;
+        background-image: url('http://coryellgop.org/wp-content/uploads/2013/10/2016.jpg'); 
+        background-repeat: no-repeat;
+        background-size: cover; 
+        border: none;
+        /*opacity: 0.4;*/
         font-family: Verdana, serif;
         font-weight: bold;
-        font-size: 30px;
+        font-size: 20px;
         text-align: center;
         
         text-shadow: 0 0 10px #fff,
@@ -54,9 +40,13 @@ div {
 /* set the menu to display horizontally, with spacing between menu items */
 #menuContainer li { 
         display: inline; 
-        line-height: 50px;
-        padding: 30px 30px 30px 30px; 
-        font-color: #E6E6E6;
+        line-height: 30px;
+        padding: 20px 20px 30px 30px; 
+        /*background-color: rgba(255, 255, 255, 0.5);*/
+        position: static;
+        opacity: 0.9;
+        /*font-color: #E6E6E6; */
+
 }
 
 /* remove the underline from the menu list items */
@@ -64,38 +54,10 @@ div {
     text-decoration: none;
 }
 
-#BerniePic {
-    float: left;
-    outline: rgba(255, 0, 0, 0.3);  /* r=red, g=green, b=blue a=alpha (opacity) */
+img {
+    width: 250px;
+    height: 250px;
+    top: 10px;
+    left: 100px;
+    padding-top: 20px;
 }
-
-#aboutBernie {
-    display: block;
-    top: 300px;
-    left: 300px;
-    padding-top: 100px;
-    margin: 20px;
-}
-
-#petIssues {
-    display: block;
-    padding-top: 100px;
-    margin: 20px;
-
-}
-
-#reasonsToVote {
-    display: block;
-    padding-top: 100px;
-    margin: 20px;
-
-}
-
-/*
-*:after {
-    box-shadow: none;
-}
-*/
-
-
-

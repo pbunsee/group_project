@@ -1,23 +1,27 @@
-#This is our README file
+#README 
 
-#Goals: 
+##Goals: 
 
-#Lindsay  deliverables:
-# ted_cruz.html
-# ted_cruz.css
+###Lindsay  deliverables:
+#### ted_cruz.html
+#### ted_cruz.css
 
-#Shah  deliverables:
-# hilary_clinton.html
-# hilary_clinton.css
+###Shah  deliverables:
+#### hilary_clinton.html
+#### hilary_clinton.css
 
-#Damion  deliverables:
-# rand_paul.html
-# rand_paul.css
+###Damion  deliverables:
+#### rand_paul.html
+#### rand_paul.css
 
-#Pranesha  deliverables:
-# bernie_sanders.html
-# bernie_sanders.css
+###Pranesha  deliverables:
+#### bernie_sanders.html
+#### bernie_sanders.css
 
-#Additional info:
-#fixed menu, article about your candidate, nice to have a link to your candidates public website, 
-# video of your candidate, audio of their speech, etc.
+### Neo  deliverables:
+#### rick_perry.html
+#### rick_perry.css
+
+###Additional info:
+####fixed menu, article about your candidate, nice to have a link to your candidates public website, 
+#### video of your candidate, audio of their speech, etc.

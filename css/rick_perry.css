@@ -1,0 +1,71 @@
+@import "common.css";
+
+h1 {
+  text-align: center;
+}
+
+#subMenu {
+   width: 800px;
+   margin: 0 auto;
+}
+
+/* set the menu to display horizontally, with spacing between menu items */
+#subMenu li { 
+    display: inline; 
+    line-height: 30px;
+    padding: 20px 20px 30px 30px; 
+}
+
+#outerContainer { 
+    text-align: left;
+    padding: 5px;
+    
+    margin: 0 auto;
+    font-family: 'Oxygen', serif;
+}
+#Article1 {
+width: 50%;
+     font-family: 'Oxygen', serif;
+     display: inline-block;
+      padding: 5px;
+      margin: 5px;
+      float: right;
+}
+#Article2 {
+  width: 50%;
+     font-family: 'Oxygen', serif;
+     display: inline-block;
+      padding: 5px;
+      margin: 5px;
+      float: left;
+}
+
+#picPerry2 {
+  width: 45%;
+  float: left;
+}
+
+#picPerry1 {
+  width: 45%;
+  float: right;
+}
+
+#picPerry3 {
+  width: 35%;
+  float: left;
+  margin: 5px;
+}
+
+#aboutRickPerry {
+width: 100%;
+margin: 5px;
+clear: both;
+}
+
+#RickPerryChances {
+  float: right;
+}
+
+#container2 {
+  float: left;
+}
